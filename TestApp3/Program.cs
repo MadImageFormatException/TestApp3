@@ -7,7 +7,7 @@ namespace TestApp3
 	{
 		static void Main( string[] args )
 		{
-			Console.WriteLine( Helper.GetTime() + " - Hello!" );
+			Console.WriteLine( Helper.GetTimeStamp() + " - Hello!" );
 			Console.ReadKey();
 		}
 	}
