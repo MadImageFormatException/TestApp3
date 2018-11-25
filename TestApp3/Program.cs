@@ -1,4 +1,5 @@
 ﻿using System;
+using TestLibrary1;
 
 namespace TestApp3
 {
@@ -6,7 +7,7 @@ namespace TestApp3
 	{
 		static void Main( string[] args )
 		{
-			Console.WriteLine( "Hello!" );
+			Console.WriteLine( Helper.GetTime() + " - Hello!" );
 			Console.ReadKey();
 		}
 	}
